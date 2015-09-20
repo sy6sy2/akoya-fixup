@@ -1,0 +1,188 @@
+Sep 20 12:55:29 kyouko kernel: [ 1007.986234] [akoya-fixup] Offset 0: 0x06 # Usage Page
+Sep 20 12:55:29 kyouko kernel: [ 1007.986253] [akoya-fixup] Offset 1: 0x89 # int16:
+Sep 20 12:55:29 kyouko kernel: [ 1007.986263] [akoya-fixup] Offset 2: 0xFF #     65417
+Sep 20 12:55:29 kyouko kernel: [ 1007.986272] [akoya-fixup] Offset 3: 0x09 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.986281] [akoya-fixup] Offset 4: 0x10 # 0x10 (16)
+Sep 20 12:55:29 kyouko kernel: [ 1007.986290] [akoya-fixup] Offset 5: 0xA1 # Collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.986299] [akoya-fixup] Offset 6: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986307] [akoya-fixup] Offset 7: 0x85 # Report ID
+Sep 20 12:55:29 kyouko kernel: [ 1007.986316] [akoya-fixup] Offset 8: 0x5A # 5a (90)
+Sep 20 12:55:29 kyouko kernel: [ 1007.986325] [akoya-fixup] Offset 9: 0x09 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.986334] [akoya-fixup] Offset 10: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986343] [akoya-fixup] Offset 11: 0x15 # Logical Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.986352] [akoya-fixup] Offset 12: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.986361] [akoya-fixup] Offset 13: 0x26 # Logical Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.986370] [akoya-fixup] Offset 14: 0xFF # int16be?
+Sep 20 12:55:29 kyouko kernel: [ 1007.986423] [akoya-fixup] Offset 15: 0x00 # 255
+Sep 20 12:55:29 kyouko kernel: [ 1007.986432] [akoya-fixup] Offset 16: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.986443] [akoya-fixup] Offset 17: 0x08 # 8
+Sep 20 12:55:29 kyouko kernel: [ 1007.986452] [akoya-fixup] Offset 18: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.986461] [akoya-fixup] Offset 19: 0x10 # 0x10 (16)
+Sep 20 12:55:29 kyouko kernel: [ 1007.986470] [akoya-fixup] Offset 20: 0xB1 # Feature
+Sep 20 12:55:29 kyouko kernel: [ 1007.986492] [akoya-fixup] Offset 21: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.986501] [akoya-fixup] Offset 22: 0xC0 # End collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.986510] [akoya-fixup] Offset 23: 0x05 # Usage Page
+Sep 20 12:55:29 kyouko kernel: [ 1007.986519] [akoya-fixup] Offset 24: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986528] [akoya-fixup] Offset 25: 0x09 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.986537] [akoya-fixup] Offset 26: 0x06 # 6 (keyboard)
+Sep 20 12:55:29 kyouko kernel: [ 1007.986546] [akoya-fixup] Offset 27: 0xA1 # Collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.986555] [akoya-fixup] Offset 28: 0x01 # Applcation
+Sep 20 12:55:29 kyouko kernel: [ 1007.986564] [akoya-fixup] Offset 29: 0x85 # Report ID
+Sep 20 12:55:29 kyouko kernel: [ 1007.986573] [akoya-fixup] Offset 30: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986582] [akoya-fixup] Offset 31: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.986591] [akoya-fixup] Offset 32: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986600] [akoya-fixup] Offset 33: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.986609] [akoya-fixup] Offset 34: 0x08 # 8
+Sep 20 12:55:29 kyouko kernel: [ 1007.986618] [akoya-fixup] Offset 35: 0x05 # Usage page
+Sep 20 12:55:29 kyouko kernel: [ 1007.986627] [akoya-fixup] Offset 36: 0x07 # 7 (keyboard)
+Sep 20 12:55:29 kyouko kernel: [ 1007.986636] [akoya-fixup] Offset 37: 0x19 # Usage minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.986645] [akoya-fixup] Offset 38: 0xE0 # 0xe0 (224)
+Sep 20 12:55:29 kyouko kernel: [ 1007.986654] [akoya-fixup] Offset 39: 0x29 # Usage maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.986663] [akoya-fixup] Offset 40: 0xE7 # 0xe7 (231)
+Sep 20 12:55:29 kyouko kernel: [ 1007.986673] [akoya-fixup] Offset 41: 0x15 # Logical Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.986682] [akoya-fixup] Offset 42: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.986700] [akoya-fixup] Offset 43: 0x25 # Logical Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.986709] [akoya-fixup] Offset 44: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986718] [akoya-fixup] Offset 45: 0x81 # Input
+Sep 20 12:55:29 kyouko kernel: [ 1007.986727] [akoya-fixup] Offset 46: 0x02 # 2
+Sep 20 12:55:29 kyouko kernel: [ 1007.986736] [akoya-fixup] Offset 47: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.986744] [akoya-fixup] Offset 48: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986753] [akoya-fixup] Offset 49: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.986762] [akoya-fixup] Offset 50: 0x08 # 8
+Sep 20 12:55:29 kyouko kernel: [ 1007.986771] [akoya-fixup] Offset 51: 0x81 # Input
+Sep 20 12:55:29 kyouko kernel: [ 1007.986780] [akoya-fixup] Offset 52: 0x03 # 3
+Sep 20 12:55:29 kyouko kernel: [ 1007.986789] [akoya-fixup] Offset 53: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.986798] [akoya-fixup] Offset 54: 0x05 # 5
+Sep 20 12:55:29 kyouko kernel: [ 1007.986807] [akoya-fixup] Offset 55: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.986817] [akoya-fixup] Offset 56: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986826] [akoya-fixup] Offset 57: 0x05 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.986843] [akoya-fixup] Offset 58: 0x08 # 8 (LEDs)
+Sep 20 12:55:29 kyouko kernel: [ 1007.986852] [akoya-fixup] Offset 59: 0x19 # Usage Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.986861] [akoya-fixup] Offset 60: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986870] [akoya-fixup] Offset 61: 0x29 # Usage Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.986879] [akoya-fixup] Offset 62: 0x05 # 5
+Sep 20 12:55:29 kyouko kernel: [ 1007.986888] [akoya-fixup] Offset 63: 0x91 # Output
+Sep 20 12:55:29 kyouko kernel: [ 1007.986897] [akoya-fixup] Offset 64: 0x02 # 2
+Sep 20 12:55:29 kyouko kernel: [ 1007.986906] [akoya-fixup] Offset 65: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.986915] [akoya-fixup] Offset 66: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.986924] [akoya-fixup] Offset 67: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.986933] [akoya-fixup] Offset 68: 0x03 # 3
+Sep 20 12:55:29 kyouko kernel: [ 1007.986942] [akoya-fixup] Offset 69: 0x91 # Output
+Sep 20 12:55:29 kyouko kernel: [ 1007.986951] [akoya-fixup] Offset 70: 0x03 # 3
+Sep 20 12:55:29 kyouko kernel: [ 1007.986960] [akoya-fixup] Offset 71: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.986969] [akoya-fixup] Offset 72: 0x06 # 6
+Sep 20 12:55:29 kyouko kernel: [ 1007.986986] [akoya-fixup] Offset 73: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.986995] [akoya-fixup] Offset 74: 0x08 # 8
+Sep 20 12:55:29 kyouko kernel: [ 1007.987004] [akoya-fixup] Offset 75: 0x15 # Logical Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987013] [akoya-fixup] Offset 76: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.987022] [akoya-fixup] Offset 77: 0x26 # Logical Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987031] [akoya-fixup] Offset 78: 0xFF # int16be?
+Sep 20 12:55:29 kyouko kernel: [ 1007.987040] [akoya-fixup] Offset 79: 0x00 # 255
+Sep 20 12:55:29 kyouko kernel: [ 1007.987049] [akoya-fixup] Offset 80: 0x05 # Usage Page
+Sep 20 12:55:29 kyouko kernel: [ 1007.987058] [akoya-fixup] Offset 81: 0x07 # 7
+Sep 20 12:55:29 kyouko kernel: [ 1007.987067] [akoya-fixup] Offset 82: 0x19 # Usage Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987076] [akoya-fixup] Offset 83: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.987085] [akoya-fixup] Offset 84: 0x2A # Usage maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987094] [akoya-fixup] Offset 85: 0xFF # int16be?
+Sep 20 12:55:29 kyouko kernel: [ 1007.987103] [akoya-fixup] Offset 86: 0x00 # 255
+Sep 20 12:55:29 kyouko kernel: [ 1007.987112] [akoya-fixup] Offset 87: 0x81 # Input
+Sep 20 12:55:29 kyouko kernel: [ 1007.987129] [akoya-fixup] Offset 88: 0x00 # 0 
+Sep 20 12:55:29 kyouko kernel: [ 1007.987138] [akoya-fixup] Offset 89: 0xC0 # End collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.987146] [akoya-fixup] Offset 90: 0x05 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.987155] [akoya-fixup] Offset 91: 0x0C # 12 (Consumer)
+Sep 20 12:55:29 kyouko kernel: [ 1007.987164] [akoya-fixup] Offset 92: 0x09 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.987173] [akoya-fixup] Offset 93: 0x01 # 1 (Consumer Control)
+Sep 20 12:55:29 kyouko kernel: [ 1007.987182] [akoya-fixup] Offset 94: 0xA1 # Collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.987191] [akoya-fixup] Offset 95: 0x01 # 1 (Application)
+Sep 20 12:55:29 kyouko kernel: [ 1007.987200] [akoya-fixup] Offset 96: 0x85 # Report ID
+Sep 20 12:55:29 kyouko kernel: [ 1007.987209] [akoya-fixup] Offset 97: 0x02 # 2
+Sep 20 12:55:29 kyouko kernel: [ 1007.987279] [akoya-fixup] Offset 98: 0x19 # Usage Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987288] [akoya-fixup] Offset 99: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.987298] [akoya-fixup] Offset 100: 0x2A # Usage Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987307] [akoya-fixup] Offset 101: 0x3C # int16be?
+Sep 20 12:55:29 kyouko kernel: [ 1007.987317] [akoya-fixup] Offset 102: 0x02 # 572
+Sep 20 12:55:29 kyouko kernel: [ 1007.987327] [akoya-fixup] Offset 103: 0x15 # Logical Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987343] [akoya-fixup] Offset 104: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.987352] [akoya-fixup] Offset 105: 0x26 # Logical Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987362] [akoya-fixup] Offset 106: 0x3C # int16be?
+Sep 20 12:55:29 kyouko kernel: [ 1007.987371] [akoya-fixup] Offset 107: 0x02 # 572
+Sep 20 12:55:29 kyouko kernel: [ 1007.987380] [akoya-fixup] Offset 108: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.987389] [akoya-fixup] Offset 109: 0x10 # 16
+Sep 20 12:55:29 kyouko kernel: [ 1007.987398] [akoya-fixup] Offset 110: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.987407] [akoya-fixup] Offset 111: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.987416] [akoya-fixup] Offset 112: 0x81 # Input
+Sep 20 12:55:29 kyouko kernel: [ 1007.987425] [akoya-fixup] Offset 113: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.987434] [akoya-fixup] Offset 114: 0xC0 # End Collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.987443] [akoya-fixup] Offset 115: 0x05 # Usage page
+Sep 20 12:55:29 kyouko kernel: [ 1007.987452] [akoya-fixup] Offset 116: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.987462] [akoya-fixup] Offset 117: 0x09 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.987471] [akoya-fixup] Offset 118: 0x0C # 12
+Sep 20 12:55:29 kyouko kernel: [ 1007.987488] [akoya-fixup] Offset 119: 0xA1 # Collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.987497] [akoya-fixup] Offset 120: 0x01 # 1 (Application)
+Sep 20 12:55:29 kyouko kernel: [ 1007.987506] [akoya-fixup] Offset 121: 0x85 # Report ID
+Sep 20 12:55:29 kyouko kernel: [ 1007.987515] [akoya-fixup] Offset 122: 0x03 # 3
+Sep 20 12:55:29 kyouko kernel: [ 1007.987524] [akoya-fixup] Offset 123: 0x15 # Logical Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987533] [akoya-fixup] Offset 124: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.987542] [akoya-fixup] Offset 125: 0x25 # Logical Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.987551] [akoya-fixup] Offset 126: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.987560] [akoya-fixup] Offset 127: 0x09 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.987569] [akoya-fixup] Offset 128: 0xC6 # 198
+Sep 20 12:55:29 kyouko kernel: [ 1007.987578] [akoya-fixup] Offset 129: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.987587] [akoya-fixup] Offset 130: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.987596] [akoya-fixup] Offset 131: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.987606] [akoya-fixup] Offset 132: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.987615] [akoya-fixup] Offset 133: 0x81 # Input
+Sep 20 12:55:29 kyouko kernel: [ 1007.987632] [akoya-fixup] Offset 134: 0x06 # 6
+Sep 20 12:55:29 kyouko kernel: [ 1007.987641] [akoya-fixup] Offset 135: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.987650] [akoya-fixup] Offset 136: 0x07 # 7
+Sep 20 12:55:29 kyouko kernel: [ 1007.987659] [akoya-fixup] Offset 137: 0x81 # Input
+Sep 20 12:55:29 kyouko kernel: [ 1007.987668] [akoya-fixup] Offset 138: 0x03 # 3
+Sep 20 12:55:29 kyouko kernel: [ 1007.987677] [akoya-fixup] Offset 139: 0xC0 # End Collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.987716] [akoya-fixup] Offset 140: 0x05 # Usage Page
+Sep 20 12:55:29 kyouko kernel: [ 1007.987753] [akoya-fixup] Offset 141: 0x88 # 136
+Sep 20 12:55:29 kyouko kernel: [ 1007.987795] [akoya-fixup] Offset 142: 0x09 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.987831] [akoya-fixup] Offset 143: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.987866] [akoya-fixup] Offset 144: 0xA1 # Collection (Application)
+Sep 20 12:55:29 kyouko kernel: [ 1007.987902] [akoya-fixup] Offset 145: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.987945] [akoya-fixup] Offset 146: 0x85 # Report ID
+Sep 20 12:55:29 kyouko kernel: [ 1007.987981] [akoya-fixup] Offset 147: 0x04 # 4
+Sep 20 12:55:29 kyouko kernel: [ 1007.988016] [akoya-fixup] Offset 148: 0x19 # Usage Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.988052] [akoya-fixup] Offset 149: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.988095] [akoya-fixup] Offset 150: 0x2A # Usage Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.988130] [akoya-fixup] Offset 151: 0xFF # int16be?
+Sep 20 12:55:29 kyouko kernel: [ 1007.988165] [akoya-fixup] Offset 152: 0xFF # 65535 !!
+Sep 20 12:55:29 kyouko kernel: [ 1007.988201] [akoya-fixup] Offset 153: 0x15 # Logical Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.988237] [akoya-fixup] Offset 154: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.988280] [akoya-fixup] Offset 155: 0x26 # Logical Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.988316] [akoya-fixup] Offset 156: 0xFF # int16be?
+Sep 20 12:55:29 kyouko kernel: [ 1007.988351] [akoya-fixup] Offset 157: 0xFF # 65535 !!
+Sep 20 12:55:29 kyouko kernel: [ 1007.988387] [akoya-fixup] Offset 158: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.988430] [akoya-fixup] Offset 159: 0x08 # 8
+Sep 20 12:55:29 kyouko kernel: [ 1007.988466] [akoya-fixup] Offset 160: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.988502] [akoya-fixup] Offset 161: 0x02 # 2
+Sep 20 12:55:29 kyouko kernel: [ 1007.988538] [akoya-fixup] Offset 162: 0x81 # Input
+Sep 20 12:55:29 kyouko kernel: [ 1007.988582] [akoya-fixup] Offset 163: 0x02 # 2
+Sep 20 12:55:29 kyouko kernel: [ 1007.988618] [akoya-fixup] Offset 164: 0xC0 End Collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.988654] [akoya-fixup] Offset 165: 0x05 # Usage Page
+Sep 20 12:55:29 kyouko kernel: [ 1007.988691] [akoya-fixup] Offset 166: 0x01 # 1 (Generic Desktop Controls)
+Sep 20 12:55:29 kyouko kernel: [ 1007.988734] [akoya-fixup] Offset 167: 0x09 # Usage
+Sep 20 12:55:29 kyouko kernel: [ 1007.988769] [akoya-fixup] Offset 168: 0x80 # 128 (System Control)
+Sep 20 12:55:29 kyouko kernel: [ 1007.988828] [akoya-fixup] Offset 169: 0xA1 # Collection
+Sep 20 12:55:29 kyouko kernel: [ 1007.988873] [akoya-fixup] Offset 170: 0x01 # 1 (Application)
+Sep 20 12:55:29 kyouko kernel: [ 1007.988909] [akoya-fixup] Offset 171: 0x85 # Report ID
+Sep 20 12:55:29 kyouko kernel: [ 1007.988944] [akoya-fixup] Offset 172: 0x05 # 5
+Sep 20 12:55:29 kyouko kernel: [ 1007.988953] [akoya-fixup] Offset 173: 0x19 # Usage Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.988963] [akoya-fixup] Offset 174: 0x81 # 129
+Sep 20 12:55:29 kyouko kernel: [ 1007.988972] [akoya-fixup] Offset 175: 0x29 # Usage Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.988981] [akoya-fixup] Offset 176: 0x83 # 131
+Sep 20 12:55:29 kyouko kernel: [ 1007.988990] [akoya-fixup] Offset 177: 0x15 # Logical Minimum
+Sep 20 12:55:29 kyouko kernel: [ 1007.989007] [akoya-fixup] Offset 178: 0x00 # 0
+Sep 20 12:55:29 kyouko kernel: [ 1007.989016] [akoya-fixup] Offset 179: 0x25 # Logical Maximum
+Sep 20 12:55:29 kyouko kernel: [ 1007.989025] [akoya-fixup] Offset 180: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.989034] [akoya-fixup] Offset 181: 0x95 # Report Count
+Sep 20 12:55:29 kyouko kernel: [ 1007.989043] [akoya-fixup] Offset 182: 0x08 # 8
+Sep 20 12:55:29 kyouko kernel: [ 1007.989053] [akoya-fixup] Offset 183: 0x75 # Report Size
+Sep 20 12:55:29 kyouko kernel: [ 1007.989061] [akoya-fixup] Offset 184: 0x01 # 1
+Sep 20 12:55:29 kyouko kernel: [ 1007.989070] [akoya-fixup] Offset 185: 0x81 # Input
+Sep 20 12:55:29 kyouko kernel: [ 1007.989079] [akoya-fixup] Offset 186: 0x02 # 2
+Sep 20 12:55:29 kyouko kernel: [ 1007.989088] [akoya-fixup] Offset 187: 0xC0 # End Collection
