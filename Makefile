@@ -1,5 +1,5 @@
 obj-m += akoya-fixup.o
-KDIR := /usr/src/linux
+KDIR := /lib/modules/`uname -r`/build
 PWD := $(shell pwd)
 
 all:

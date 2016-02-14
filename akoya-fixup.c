@@ -1,6 +1,6 @@
 /*
  * HID driver for Medion Akoya P2214T Notebooks
- * Copyright (c) 2015 Hendrik Schumann
+ * Copyright (c) 2015-2016 Hendrik Schumann <github@schumann.pw>
  * Heavily inspired by various other HID drivers that adjust the report
  * descriptor.
 */
@@ -21,7 +21,8 @@
 /*
  * The report descriptor of some Elan based keyboard devices specifies an
  * excessively large number of consumer usages (2^16), which is more than
- * HID_MAX_USAGES. This prevents proper parsing of the report descriptor.
+ * HID_MAX_USAGES. This prevents proper parsing of the report descriptor,
+ * and the keyboard is unusable as a result.
  *
  * This driver fixes the report descriptor for:
  * - USB ID 04F3:0400, Elan Touchpad / ITE Tech. Inc. ITE Device(8910)
@@ -33,15 +34,18 @@ static __u8 *akoya_keyboard_report_fixup(struct hid_device *hdev, __u8 *rdesc,
 	struct usb_interface *intf = to_usb_interface(hdev->dev.parent);
 
 	if (intf->cur_altsetting->desc.bInterfaceNumber == 0) {
-		/* Change usage maximum and logical maximum from 0xffff to
-		 * 0x2fff, so they don't exceed HID_MAX_USAGES */
+		/*
+		 * Change usage maximum and logical maximum from 0xffff to
+		 * 0x2fff, so they don't exceed HID_MAX_USAGES
+		 * Hopefully this won't break other devices (tm)
+		*/
 		switch (hdev->product) {
 		case USB_DEVICE_ID_ELAN_AKOYA_0400:
 			if (*rsize >= 188
 					&& rdesc[151] == 0xff && rdesc[152] == 0xff
 					&& rdesc[156] == 0xff && rdesc[157] == 0xff) {
 				rdesc[152] = rdesc[157] = 0x2f;
-				hid_info(hdev, "Fixing up report descriptor\n");
+				hid_info(hdev, "fixing Medion Akoya USB keyboard report descriptor\n");
 			}
 			break;
 		}
