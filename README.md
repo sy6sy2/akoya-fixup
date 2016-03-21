@@ -5,7 +5,19 @@ A Linux kernel module to fix the keyboard for my Medion(R) Akoya P2214T Notebook
 # Technical description
 
 The USB report descriptor of some(?) Elan based keyboard devices specifies an excessively large number of *consumer usages* (2^16), which is more than HID_MAX_USAGES. This prevents proper parsing of the report descriptor, and the keyboard is unusable as a result.  
-A commonly suggested remedy is to compile your own kernel with increased HID_MAX_USAGES - but that's a dirty hack which may have repercussions for other devices or the stability of the whole system (or maybe it just wastes a few thousand bytes). It's also relatively difficult for newcomers with lots of pitfalls and it may result in an unbootable system, frustration, etc.
+A commonly suggested remedy is to compile your own kernel with increased `HID_MAX_USAGES` - but that's a dirty hack which may have repercussions for other devices or the stability of the whole system (or maybe it just wastes a few thousand bytes). It's also relatively difficult for newcomers with lots of pitfalls and it may result in an unbootable system, frustration, etc.
+
+## Disclaimer
+
+Despite the very low chance of any kind of problem caused by this module, it should be considered experimental, unsupported and/or unfit for use on systems in production or in critical environments.
+
+The software is provided "as is" and the author disclaims all warranties
+with regard to this software including all implied warranties of
+merchantability and fitness. In no event shall the author be liable for
+any special, direct, indirect, or consequential damages or any damages
+whatsoever resulting from loss of use, data or profits, whether in an
+action of contract, negligence or other tortious action, arising out of
+or in connection with the use or performance of this software.
 
 # Installation
 
@@ -52,7 +64,7 @@ We might be able to work out some kind of freelance contract for tailoring a fix
 
 
 ----
-Copyright (c) 2015-2016 Hendrik Schumann <github at schumann.pw>
+Copyright (c) 2015-2016 Hendrik Schumann < github at schumann.pw >
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the Free
